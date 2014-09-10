@@ -1,0 +1,44 @@
+public class Pasajero {
+    private String nombre, genero;
+    private int edad, asiento;
+    private long id;
+    
+    public Pasajero(long id, String n, int e, String g, int a){
+        this.id = id;
+        nombre = n;
+        edad = e;
+        genero = g;
+        asiento =a;
+    }
+    public void setNombre(String n){
+        nombre =n;
+    }
+    public void setId(long i){
+        id =i;
+    }
+    public void setEdad(int e){
+        edad =e;
+    }
+    public void setGenero(String g){
+        genero =g;
+    }
+    public void setAsiento(int a){
+        asiento =a;
+    }
+    public String getNombre(){
+        return nombre;
+    }
+    public int getEdad(){
+        return edad;
+    }
+    public long getId(){
+        return id;
+    }
+    public String getGenero(){
+        return genero;
+    }
+    public int getAsiento(){
+        return asiento;
+    }
+    
+}
